@@ -1,0 +1,35 @@
+.search-input{
+    margin: 20px auto;
+    width: 56%;
+    display: block;
+    padding: 6px 12px;
+    color: #3e3e3e;
+    border: 2px solid #3e3e3e;
+    border-radius: 14px;
+    font-size: 20px;
+}
+ul{
+    margin: 10px 10px;
+    padding: 0 0 0 0;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #3e3e3e;
+    background: #b3b3b3;
+    display: none;
+}
+li:hover{
+    background: #a9a9a9;
+}
+.label-currency{
+    margin: 0 10px;
+    display: block;
+    padding: 8px 16px;
+    font-size: 20px;
+    background: #3e3e3e;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion (lesson 14)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input class="search-input" type="text" placeholder="Какую валюту вы планируете приобрести?">
+
+    <label class="label-currency" for="rubles">Рубли</label>
+    <ul class="rubles" data-open="false">
+        <li class="elements">Рубль - Доллар(81,72)</li>
+        <li class="elements">Рубль - Евро(92,63)</li>
+        <li class="elements">Рубль - Фунт(32,48)</li>
+        <li class="elements">Рубль - Юань(22,71)</li>
+    </ul>
+
+    <label class="label-currency" for="dollars">Доллары</label>
+    <ul class="dollars" data-open="false">
+        <li class="elements">Доллар - Рубль(0,027)</li>
+        <li class="elements">Доллар - Евро(1,072)</li>
+        <li class="elements">Доллар - Фунт(0,234)</li>
+        <li class="elements">Доллар - Юань(0,366)</li>
+    </ul>
+
+    <label class="label-currency" for="evro">Евро</label>
+    <ul class="evro" data-open="false">
+        <li class="elements">Евро - Рубль(0,023)</li>
+        <li class="elements">Евро - Доллар(0,92)</li>
+        <li class="elements">Евро - Фунт(0,217)</li>
+        <li class="elements">Евро - Юань(0,332)</li>
+    </ul>
+
+    <label class="label-currency" for="funts">Фунты</label>
+    <ul class="funts" data-open="false">
+        <li class="elements">Фунты - Рубль(0,33)</li>
+        <li class="elements">Фунты - Доллар(0,31)</li>
+        <li class="elements">Фунты - Евро(2,61)</li>
+        <li class="elements">Фунты - Юань(0,76)</li>
+    </ul>
+
+    <label class="label-currency" for="uani">Юани</label>
+    <ul class="uani" data-open="false">
+        <li class="elements">Юань - Рубль(0,292)</li>
+        <li class="elements">Юань - Доллар(0,32)</li>
+        <li class="elements">Юань - Евро(2,81)</li>
+        <li class="elements">Юань - Фунты(1,32)</li>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
